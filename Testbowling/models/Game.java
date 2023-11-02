@@ -66,8 +66,8 @@ public class Game {
         // verifica se é a ultima rodada e concede o bônus de spire
         if(roudCurr == 9) {
             if (roudCurr > 0 && roudsPrayer[roudCurr - 1].isSpare()) {
-            scoreBoard[roudCurr] += turnCurrent.getTurn1();
-        }
+                scoreBoard[roudCurr] += turnCurrent.getTurn1();
+            }
         }
     
         // proxima rodada

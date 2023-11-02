@@ -41,10 +41,10 @@ public class GameTest {
     }
 
     @Test
-    public void SpireInGame1() throws InvalidTurn{
+    public void SpareInGame1() throws InvalidTurn{
         Game g = new Game();
         
-        // partida com spire nas 10 rodadas
+        // partida com spare nas 10 rodadas
 
         // 1ª Rodada
         g.add(new Turn(5, 5));
@@ -101,10 +101,10 @@ public class GameTest {
     }
 
     @Test
-    public void SpireInGame2() throws InvalidTurn{
+    public void SpareInGame2() throws InvalidTurn{
         Game g = new Game();
         
-        // partida spire com 10 pinos no segundo arremesso  nas 10 rodadas
+        // partida com spares e strikes 10 rodadas
         // 1ª Rodada: Strike (10 pontos)
         g.add(new Turn(10, 0));
 
